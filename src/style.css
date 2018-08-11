@@ -1,0 +1,17 @@
+.contactListItems  {
+cursor:pointer;
+margin :5px;  
+padding:10px;
+border:1px solid #ddd;
+border-radius:4px
+}
+
+.contactListItems:hover{
+  background-color:#eee;
+} 
+
+.contactListDetails  {
+  padding:10px;
+  border:1px solid #ddd;
+  border-radius:4px
+  }
