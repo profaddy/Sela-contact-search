@@ -38,13 +38,13 @@ export default class Searchbar extends React.Component {
 
 				<div class='col-sm-6 Login_form'>
 					<h3>Contact Search</h3>
-					<p>Enter Keyword to serach contacts </p>
+					
               <form>
                 <FormGroup controlId="formBasicText" > 
                   <FormControl
                           type="text"
                           value={this.state.contact_name}
-                          placeholder="Enter Commit ID"
+                          placeholder="Enter Keyword to serach contacts"
                           inputRef={(a) => this.contact_name = a}
                           onChange={(event) => this.handleOnChange(event)}    
                       />
