@@ -26,7 +26,7 @@ export default class Home extends React.Component {
 		super();
 		this.state={
 
-			sel_contact:[],
+			sel_contact: contact,
 			applyFilter: false
 		};
 	
