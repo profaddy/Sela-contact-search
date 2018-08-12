@@ -1,10 +1,10 @@
 import { combineReducers } from "redux"
 
 //import items from "./tweetsReducer"
-//import User from "./userreducer"
-//import handlemodal from "../reducers/modalreducer"
+import filter from "./filterReducer"
+
 
 export default combineReducers({
-	
+	filter
  
 })

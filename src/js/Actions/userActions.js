@@ -1,10 +1,12 @@
-/*export function fetchUser() {
+export function filterBySerType(ser_typ) {
+  console.log('filterBySerType',ser_typ)
   return {
-    type: "FETCH_USER"
+    type: "filterBySerType",
+    payload: ser_typ
           }
         }
 
-export function setUserName(user_details) {
+/*export function setUserName(user_details) {
    console.log('console user actions',user_details)
   return {
    type: 'SET_USER_NAME',
